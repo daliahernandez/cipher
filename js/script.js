@@ -5,4 +5,12 @@ function capitalLetter(){
   alert(newWord);
   return newWord
 };
-capitalLetter();
+// capitalLetter();
+
+function reverseLetters(){
+  var newWord = userInput.split("")
+  var rev = newWord.reverse();
+  var join = rev.join("");
+  return join
+};
+alert(reverseLetters(userInput));

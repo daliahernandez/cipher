@@ -12,5 +12,3 @@ Add code to your third function to concatenate the new two-letter string togethe
 Create a fourth function to count the number of letters in the original sentence, divide it by two (rounding down if necessary), and output the letter at this index. Concatenate this letter at the beginning of the original sentence. For example, if "I am a sentence" is my original input, and it has 15 total characters in it. If I divide this by 2, I get 7.5, which rounds down to 7. The letter at the 7th position in the sentence is "s". So my final result is "sI am a sentenceEI".
 
 Bonus: Take the final result and reverse it: "IEecnetnes a ma ls".
-
-Use jQuery to create two clickable images or pieces of text in your HTML page. When you click on the left one, it should show you the original sentence. If you click the other one, it should hide the original sentence and show the encoded one. Use Bootstrap to organize and style your page.
