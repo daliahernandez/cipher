@@ -16,11 +16,16 @@ function reverseLetters(){
 // alert(reverseLetters(userInput));
 
 function callingFunction(){
-  var letters = capitalLetter().split(" ");
+  var letters = capitalLetter().split("");
   var rev = letters.reverse();
   var join = rev.join(" ");
 
   return join;
 }
-// 
+//
 // alert(callingFunction())
+function concatFuncAndSent(){
+  var sentance = "This is a sentance" + callingFunction();
+  return sentance;
+}
+alert(concatFuncAndSent());
