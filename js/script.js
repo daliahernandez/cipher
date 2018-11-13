@@ -5,7 +5,7 @@ function capitalLetter(){
   alert(newWord);
   return newWord
 };
-// capitalLetter();
+ // capitalLetter();
 
 function reverseLetters(){
   var newWord = userInput.split("")
@@ -13,4 +13,14 @@ function reverseLetters(){
   var join = rev.join("");
   return join
 };
-alert(reverseLetters(userInput));
+// alert(reverseLetters(userInput));
+
+function callingFunction(){
+  var letters = capitalLetter().split(" ");
+  var rev = letters.reverse();
+  var join = rev.join(" ");
+
+  return join;
+}
+// 
+// alert(callingFunction())
