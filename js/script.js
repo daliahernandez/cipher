@@ -1,9 +1,8 @@
-var userAnswer = prompt("Enter a sentance");
-alert(userAnswer);
+var userInput = prompt("enter a sentance");
 
-var newSentance = function(word){
-
-  return word;
-}
-
-Next, create a function that will take the first and last letter of the sentence, capitalize them, and return this as a new string.
+function capitalLetter(){
+  var newWord = userInput[0].toUpperCase() + ' ' + userInput.substr(-1).toUpperCase();
+  alert(newWord);
+  return newWord
+};
+capitalLetter();
